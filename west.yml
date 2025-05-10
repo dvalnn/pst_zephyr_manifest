@@ -1,0 +1,28 @@
+manifest:
+  remotes:
+    - name: zephyrproject-rtos
+      url-base: https://github.com/zephyrproject-rtos
+    - name: dvalnn
+      url-base: https://github.com/dvalnn
+    - name: Lora-net
+      url-base: https://github.com/Lora-net
+  defaults:
+    remote:  dvalnn
+
+  projects:
+    - name: zephyr
+      remote: zephyrproject-rtos
+      revision: v4.1.0
+      import: true
+
+    # - name: LBM_zephyr
+    #   remote: Lora-net
+    #   revision: master
+    #   import: true
+
+    - name: invictus-zephyr
+      revision: main
+      import: true
+
+  self:
+    path: pst_zephyr
