@@ -15,10 +15,10 @@ manifest:
       revision: v4.1.0
       import: true
 
-    - name: LBM_zephyr
-      remote: Lora-net
-      revision: master
-      import: true
+    # - name: LBM_zephyr
+    #   remote: Lora-net
+    #   revision: master
+    #   import: true
 
     - name: invictus-zephyr
       revision: main
